@@ -1,0 +1,89 @@
+.login {
+  padding: 100px 0;
+  .title {
+    text-align: center;
+    h3 {
+      font-size: 36px;
+      margin: 0;
+      margin-bottom: 60px;
+      span {
+        font-weight: normal;
+        font-size: 24px;
+        color: #333;
+      }
+    }
+  }
+  .actionTab {
+    width: 50%;
+    margin: 0 auto;
+    .active{
+      color: #fff;
+    }
+  }
+  .content {
+    overflow: hidden;
+    margin-top: 100px;
+    .content-login {
+      width: 50%;
+      padding: 30px 60px;
+      border-right: 1px solid #45bb93;
+      min-height: 561px;
+      float: left;
+      h3 {
+      }
+      .form-login {
+        .action {
+          overflow: hidden;
+          margin: 45px 0;
+          button {
+          }
+          .btn-login{
+            width: 30%;
+            a{
+              color: #fff;
+              text-decoration: none;
+              &:hover{
+                text-decoration: none;
+              }
+            }
+          }
+          .btn-login-linkedin{
+            width: 60%;
+            float: right;
+          }
+          .icon-btn {
+            height: auto;
+            font-size: 20px;
+            margin-right: 10px;
+          }
+          .forgot-pass {
+            margin-top: 15px;
+            text-align: right;
+            width: 100%;
+            a {
+              text-decoration: underline;
+              color: #7b7b7b;
+            }
+          }
+        }
+      }
+      .bottom-login {
+        p {
+          margin: 0;
+          color: #7b7b7b;
+          a {
+            color: #45bb93;
+          }
+        }
+      }
+    }
+    .content-register {
+      width: 50%;
+      padding: 30px 60px;
+      float: right;
+      .btn-register{
+        margin-top: 40px;
+      }
+    }
+  }
+}

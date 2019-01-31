@@ -1,0 +1,91 @@
+.home-page {
+  .banner {
+    background: #000;
+    .banner-content {
+      box-shadow: none;
+      color: #fff;
+      button {
+        color: #fff;
+        padding: 25px 0;
+        &:focus {
+        }
+      }
+    }
+    .activeTab {
+      background-color: #33464d !important;
+    }
+  }
+
+  .content {
+    margin: 30px 0;
+    color: #adafb0;
+    .btn-back{
+      padding: 10px 30px;
+    }
+    .btn-save{
+      padding: 10px 65px;
+    }
+    .btn-skip{
+      padding: 10px 30px;
+    }
+
+    .resume {
+      padding: 30px 45px;
+      color: #adafb0;
+      .title {
+        font-size: 24px;
+        margin: 0;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #ddd;
+        margin-bottom: 45px;
+      }
+      .content-resume {
+        overflow: hidden;
+        .content-user {
+          padding-bottom: 30px;
+          border-bottom: 1px solid #ddd;
+          margin-bottom: 45px;
+          color: #adafb0;
+          .user{
+            text-align: center;
+            .avatar{
+              width: 100%;
+              height: auto;
+              border-radius: 50%;
+              img{
+                width: 100%;
+              }
+            }
+            button{
+              margin: 15px auto;
+              color: #adafb0;
+            }
+          }
+          .status_input{
+            width: 100%;
+            display: inline-block;
+            margin: 12px 0;
+          }
+        }
+        .attach-resume{
+          padding-bottom: 30px;
+          border-bottom: 1px solid #ddd;
+          margin-bottom: 45px;
+          .status_input{
+            margin-left: 20px;
+          }
+          .status_file{
+            width: 100%;
+            margin: 15px 0;
+          }
+        }
+      }
+    }
+  }
+  .action{
+    text-align: center;
+    button{
+      margin: 0 25px;
+    }
+  }
+}

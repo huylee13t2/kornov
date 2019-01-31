@@ -1,0 +1,28 @@
+.personal-info {
+  overflow: hidden;
+  padding: 30px 45px;
+  // color: #adafb0;
+  .info {
+    // color: #adafb0;
+    margin-bottom: 60px;
+    .form-title {
+    }
+  }
+  .gender {
+    display: inline-block;
+    label {
+      margin-right: 30px;
+      // color: #adafb0;
+      span {
+        // color: #adafb0;
+      }
+    }
+  }
+  .salary{
+    margin-bottom: 100px;
+    overflow: hidden;
+  }
+  .contact {
+    margin-bottom: 60px;
+  }
+}

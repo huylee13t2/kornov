@@ -1,0 +1,39 @@
+@import "./login.scss";
+@import "./header.scss";
+@import "./home.scss";
+@import "./footer.scss";
+@import "./personal_info.scss";
+@import "./skills.scss";
+@import "./professional.scss";
+
+.color-white{
+  color: #fff !important;
+}
+.text-color{
+  color: #adafb0 !important;
+}
+.bg-blue {
+  background-color: #017ab6 !important;
+}
+.bg-green {
+  background-color: #45bb93 !important;
+}
+.bg-black {
+  background-color: #293c43 !important;
+}
+.boxShadow {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(194, 192, 194, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(194, 192, 194, 1);
+  box-shadow: 0px 0px 20px 0px rgba(194, 192, 194, 1);
+}
+.page-content{
+  padding-top: 64px;
+}
+.form-title{
+  font-size: 24px;
+  margin: 0;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 45px;
+  color: #adafb0;
+}
