@@ -1,6 +1,7 @@
 import React from "react";
-import { Grid, TextField, Chip } from "@material-ui/core";
+import { Grid, TextField, Chip, Fab, Button } from "@material-ui/core";
 import DateFnsUtils from "@date-io/date-fns";
+import AddIcon from "@material-ui/icons/Add";
 import { MuiPickersUtilsProvider, DatePicker } from "material-ui-pickers";
 
 class ProfessionalInfo extends React.Component {
@@ -12,15 +13,15 @@ class ProfessionalInfo extends React.Component {
       secondary_skills: [
         {
           key: 0,
-          label: "Managin",
+          label: "Managin"
         },
         {
           key: 1,
-          label: "Team Leader",
+          label: "Team Leader"
         },
         {
           key: 2,
-          label: "Project Manager",
+          label: "Project Manager"
         },
         {
           key: 3,
@@ -166,7 +167,19 @@ class ProfessionalInfo extends React.Component {
                 )}
               </Grid>
             </Grid>
+
+            <Grid item sm={6}>
+              <Fab color="primary" title="Add New Company" aria-label="Add">
+                <AddIcon />
+              </Fab>
+            </Grid>
           </Grid>
+        </div>
+
+        <div className="action" style={{ marginTop: 30 }}>
+          <Button className="btn-back">Back</Button>
+          <Button className="bg-green color-white btn-save">Save & Next</Button>
+          <Button className="btn-skip">Skip</Button>
         </div>
       </div>
     );

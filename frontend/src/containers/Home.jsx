@@ -27,7 +27,7 @@ class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      tabIndex: 3,
+      tabIndex: 4,
     };
   }
 
